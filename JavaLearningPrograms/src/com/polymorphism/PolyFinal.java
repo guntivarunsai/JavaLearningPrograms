@@ -20,6 +20,7 @@ public class PolyFinal {
 
 		B b = new B();
 		b.method2();
+		System.out.println("Github");
 	}
 
 }
