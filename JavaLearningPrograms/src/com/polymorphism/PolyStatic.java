@@ -17,7 +17,6 @@ public class PolyStatic {
 	public static void main(String[] args) {
 		One1 one1 = new Two1();
 		one1.calculate(5);
-
 		Two1.calculate(5);
 
 	}
