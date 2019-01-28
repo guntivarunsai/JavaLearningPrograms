@@ -22,6 +22,7 @@ public class PolyOverriding {
 	public static void main(String[] args) {
 
 		Two t = new Two();
+		t.toString();
 		t.calculate(4);
 	}
 }
