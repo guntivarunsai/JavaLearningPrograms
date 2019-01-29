@@ -6,7 +6,7 @@ class One1 {
 	}
 }
 
-class Two1 extends One1 {
+class Two1 extends One1{
 	public static void calculate(double x) {
 		System.out.println("Cube Value : " + (x * x * x));
 	}
