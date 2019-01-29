@@ -28,5 +28,4 @@ public class MultiInterface {
 		 Child child = new Child();
 		 child.height();
 	}
-
 }
