@@ -30,8 +30,7 @@ public class MyException extends Exception {
 		} catch (MyException e) {
 			e.printStackTrace();
 			// TODO: handle exception
-		}
-		finally {
+		} finally {
 			System.out.println("Program Ended");
 		}
 	}
