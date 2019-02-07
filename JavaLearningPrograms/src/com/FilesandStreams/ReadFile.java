@@ -7,7 +7,11 @@ public class ReadFile {
 
 	public static void main(String[] args) throws IOException {
 		
-		FileInputStream fis = new FileInputStream("myFile.txt");
+		final String MY_FILE = "myFile.txt";
+		
+		FileInputStream fis = new FileInputStream(MY_FILE);
+		
+		FileInputStream fis1 = new FileInputStream(MY_FILE);
 		
 		System.out.println("File Contents");
 		
