@@ -25,8 +25,6 @@ public class CustomAnnotationDemo {
 
 		MyClass1 myClass1 = new MyClass1();
 		myClass1.toDoSomething();
-		
-		
 		Method m = myClass1.getClass().getMethod("toDoSomething");
 		MyAnno anno = m.getAnnotation(MyAnno.class);
 		System.out.println("Value : " + anno.value());
