@@ -22,7 +22,8 @@ public class PredicateDemoMultiple {
 		display(gt.and(lt), arr);
 
 		System.out.println("\n Nubers <=10 and >=16: ");
-		display(gt.and(lt), arr);
+		
+		display(gt.and(lt).negate(), arr);
 	}
 
 	private static void display(Predicate<Integer> and1, Integer[] arr) {
