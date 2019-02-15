@@ -16,7 +16,6 @@ select * from city where countrycode='IND' and population>1000000 order by distr
 
 select * from city where countrycode='IND' and population>1000000 order by 4 desc;
 
-
-
-
-
+create table leaders(lno int not null,leader_name varchar(20), salary float, city_id int,
+					primary key(lno),
+                    foreign key (city_id) references city(id));
